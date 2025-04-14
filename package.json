@@ -1,12 +1,14 @@
 {
   "name": "awards",
-  "private": true,
-  "version": "0.0.0",
   "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.8.0+sha512.0e82714d1b5b43c74610193cb20734897c1d00de89d0e18420aebc5977fa13d780a9cb05734624e81ebd81cc876cd464794850641c48b9544326b5622ca29971",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -14,6 +16,8 @@
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^4.12.0",
+    "@eslint-react/eslint-plugin": "^1.47.2",
     "@eslint/js": "^9.24.0",
     "@types/react": "^19.1.1",
     "@types/react-dom": "^19.1.2",
@@ -25,6 +29,5 @@
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.29.1",
     "vite": "^6.2.6"
-  },
-  "packageManager": "pnpm@10.8.0+sha512.0e82714d1b5b43c74610193cb20734897c1d00de89d0e18420aebc5977fa13d780a9cb05734624e81ebd81cc876cd464794850641c48b9544326b5622ca29971"
+  }
 }

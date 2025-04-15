@@ -1,6 +1,6 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { ScrollTrigger } from "gsap/all";
 import { useEffect, useRef, useState } from "react";
 import { TiLocationArrowOutline } from "react-icons/ti";
 
